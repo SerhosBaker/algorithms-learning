@@ -3,6 +3,7 @@ package com.company;
 import com.company.Tests.FirstMostFrequentlyItemTest;
 import com.company.Tests.FlattenArrayTest;
 import com.company.Tests.MinMaxIndexInArray;
+import com.company.Tests.TestChangePosition.TestChangePosition;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -33,5 +34,13 @@ public class Main {
 
         var test3Reuslt = new FlattenArrayTest().test(arrayList3);
         System.out.println(test3Reuslt);
+
+        //test3
+        System.out.println("Test 3: " + TestChangePosition.class);
+        var test3 = new TestChangePosition();
+        test3.Init();
+        test3.WriteArray();
+        test3.ChangePosition2("e",2);
+        test3.WriteArray();
     }
 }
