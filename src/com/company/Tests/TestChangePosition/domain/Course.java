@@ -1,5 +1,6 @@
 package com.company.Tests.TestChangePosition.domain;
 
+//github test
 public class Course
 {
     public int Position;
